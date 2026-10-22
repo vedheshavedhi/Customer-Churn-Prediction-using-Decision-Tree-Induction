@@ -1,0 +1,59 @@
+[
+ {
+  "Model":"Decision Tree (Gini, unpruned)",
+  "Train Acc":0.998,
+  "Accuracy":0.7417,
+  "Precision":0.5139,
+  "Recall":0.4947,
+  "F1":0.5041,
+  "ROC-AUC":0.6623,
+  "CM":[
+   [
+    860,
+    175
+   ],
+   [
+    189,
+    185
+   ]
+  ]
+ },
+ {
+  "Model":"Decision Tree (Entropy, tuned)",
+  "Train Acc":0.7714,
+  "Accuracy":0.7502,
+  "Precision":0.5199,
+  "Recall":0.7674,
+  "F1":0.6199,
+  "ROC-AUC":0.8347,
+  "CM":[
+   [
+    770,
+    265
+   ],
+   [
+    87,
+    287
+   ]
+  ]
+ },
+ {
+  "Model":"Random Forest",
+  "Train Acc":0.8204,
+  "Accuracy":0.7644,
+  "Precision":0.539,
+  "Recall":0.7754,
+  "F1":0.636,
+  "ROC-AUC":0.8442,
+  "CM":[
+   [
+    787,
+    248
+   ],
+   [
+    84,
+    290
+   ]
+  ]
+ }
+]

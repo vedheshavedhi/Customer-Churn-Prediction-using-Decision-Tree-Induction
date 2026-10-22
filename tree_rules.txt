@@ -1,0 +1,67 @@
+|--- Contract_Two year <= 0.50
+|   |--- Contract_One year <= 0.50
+|   |   |--- InternetService_Fiber optic <= 0.50
+|   |   |   |--- tenure <= 5.50
+|   |   |   |   |--- InternetService_No <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- InternetService_No >  0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- tenure >  5.50
+|   |   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |--- InternetService_Fiber optic >  0.50
+|   |   |   |--- tenure <= 13.50
+|   |   |   |   |--- TotalCharges <= 120.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- TotalCharges >  120.00
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- tenure >  13.50
+|   |   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- Contract_One year >  0.50
+|   |   |--- StreamingMovies_Yes <= 0.50
+|   |   |   |--- PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |--- tenure <= 58.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- tenure >  58.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- TotalCharges <= 2707.90
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- TotalCharges >  2707.90
+|   |   |   |   |   |--- class: 0
+|   |   |--- StreamingMovies_Yes >  0.50
+|   |   |   |--- MonthlyCharges <= 99.97
+|   |   |   |   |--- PaperlessBilling_Yes <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- PaperlessBilling_Yes >  0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- MonthlyCharges >  99.97
+|   |   |   |   |--- TotalCharges <= 6448.60
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- TotalCharges >  6448.60
+|   |   |   |   |   |--- class: 0
+|--- Contract_Two year >  0.50
+|   |--- MonthlyCharges <= 93.50
+|   |   |--- MonthlyCharges <= 80.58
+|   |   |   |--- TotalCharges <= 4759.65
+|   |   |   |   |--- Dependents_Yes <= 0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- Dependents_Yes >  0.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- TotalCharges >  4759.65
+|   |   |   |   |--- class: 0
+|   |   |--- MonthlyCharges >  80.58
+|   |   |   |--- class: 0
+|   |--- MonthlyCharges >  93.50
+|   |   |--- TotalCharges <= 7755.60
+|   |   |   |--- MonthlyCharges <= 105.92
+|   |   |   |   |--- class: 0
+|   |   |   |--- MonthlyCharges >  105.92
+|   |   |   |   |--- class: 0
+|   |   |--- TotalCharges >  7755.60
+|   |   |   |--- class: 0
